@@ -1,0 +1,761 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0BF2074D94B7D816ABE8CAE8 /* IMSLPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25E904208D49724EDFEA2243 /* IMSLPClient.swift */; };
+		14092666950564F371345257 /* CatalogViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA6DC50D083C893DC6F36E14 /* CatalogViews.swift */; };
+		18F22BC95D3E725E90B070C3 /* PlayerViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16A0C7CD2EE3A53F8C7C0004 /* PlayerViews.swift */; };
+		23843954323A0736E6A76DDB /* LibraryViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA674D31E777A2153943B8C /* LibraryViews.swift */; };
+		30C81BA3AA80183604E470F6 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89CED65A2738177F38F2E2D6 /* AVFoundation.framework */; };
+		33137F719AA4419CFD50443B /* test-audio.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8B23B4DAD43AD4791EA40BF5 /* test-audio.wav */; };
+		35ADE6F50DBA220FB1C2F7CD /* bach-work.json in Resources */ = {isa = PBXBuildFile; fileRef = 290F401372759070D3E14331 /* bach-work.json */; };
+		375B0F07313250008A6C7062 /* Design.swift in Sources */ = {isa = PBXBuildFile; fileRef = F546895C9BC47D782B19A206 /* Design.swift */; };
+		3A48A3D7C8D6965CE34A393B /* MusicE2ETests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71BBD06DE7F6C48E66CEFCA9 /* MusicE2ETests.swift */; };
+		3AFEE196EEA8F956D8A29275 /* bach-rendered.json in Resources */ = {isa = PBXBuildFile; fileRef = 312E7E88E8A75996653A54B5 /* bach-rendered.json */; };
+		3CDC2A5CF5FF4943CA4DA8D9 /* MusicStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52BEE7A8E5DD297919DC037 /* MusicStore.swift */; };
+		430265D6C0DA2E80334F9BAB /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89CED65A2738177F38F2E2D6 /* AVFoundation.framework */; };
+		43D42AA8A366AC76492ACF24 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2478916C217E01CE4F59B944 /* MediaPlayer.framework */; };
+		44C16ACEFFDF45C5C744A0FC /* CatalogViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA6DC50D083C893DC6F36E14 /* CatalogViews.swift */; };
+		4A63CFDE7D4EEFE6228473B6 /* mozart-work.json in Resources */ = {isa = PBXBuildFile; fileRef = EA92C76DDFE0996D881E86EA /* mozart-work.json */; };
+		4A73713FA2194CCE41F8EBD9 /* Design.swift in Sources */ = {isa = PBXBuildFile; fileRef = F546895C9BC47D782B19A206 /* Design.swift */; };
+		52ABD1E09322034F8465EBA8 /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5FADA4D88905E19B6377976A /* LICENSE.txt */; };
+		5892317A8E145800392A1D5C /* IMSLPMusicApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB80FAEEC3021A0F9267DBC2 /* IMSLPMusicApp.swift */; };
+		6445FFF2F1B6CBCA705ACB87 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20CBFE71F835187167A6345 /* Models.swift */; };
+		74AAF66FBE157171EA57A2AE /* WikiParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31965F96F2E9C5CD85F58E29 /* WikiParser.swift */; };
+		868920990BE0139589B37762 /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5FADA4D88905E19B6377976A /* LICENSE.txt */; };
+		87B03754B1E05B38FC82E489 /* MusicE2ETests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71BBD06DE7F6C48E66CEFCA9 /* MusicE2ETests.swift */; };
+		948D1433821573F70CA9892A /* MusicStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52BEE7A8E5DD297919DC037 /* MusicStore.swift */; };
+		A822141FC0BB3D45F3AD6F4A /* mozart-work.json in Resources */ = {isa = PBXBuildFile; fileRef = EA92C76DDFE0996D881E86EA /* mozart-work.json */; };
+		A97988F93026AC8AC6EF3234 /* IMSLPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25E904208D49724EDFEA2243 /* IMSLPClient.swift */; };
+		AC123022B1CDEE2E599BD5C7 /* WikiParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31965F96F2E9C5CD85F58E29 /* WikiParser.swift */; };
+		AC35BD3F95D51D4D29C95A62 /* mozart-rendered.json in Resources */ = {isa = PBXBuildFile; fileRef = 396B282D883469540AE94486 /* mozart-rendered.json */; };
+		B11B4A9606A7BB568C89D95E /* PlayerViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16A0C7CD2EE3A53F8C7C0004 /* PlayerViews.swift */; };
+		B13322B1E813411C5850C468 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3625DB9A54B1A46C3BDE2B6 /* Assets.xcassets */; };
+		B2115C55BB46CC22946305DB /* bach-rendered.json in Resources */ = {isa = PBXBuildFile; fileRef = 312E7E88E8A75996653A54B5 /* bach-rendered.json */; };
+		C2E37144A74AD74788A84A7B /* bach-work.json in Resources */ = {isa = PBXBuildFile; fileRef = 290F401372759070D3E14331 /* bach-work.json */; };
+		CB193EBBFB6B57A53BD7EAF0 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2478916C217E01CE4F59B944 /* MediaPlayer.framework */; };
+		CD49DD35826BC8707816C242 /* mozart-rendered.json in Resources */ = {isa = PBXBuildFile; fileRef = 396B282D883469540AE94486 /* mozart-rendered.json */; };
+		D4825C12486889661E7989B1 /* IMSLPMusicApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB80FAEEC3021A0F9267DBC2 /* IMSLPMusicApp.swift */; };
+		DF50E524564AF954023B8CD6 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20CBFE71F835187167A6345 /* Models.swift */; };
+		ECA3D429B5027C8576FB1B91 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3625DB9A54B1A46C3BDE2B6 /* Assets.xcassets */; };
+		F1B36BF08E9652943B5FFF0F /* test-audio.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8B23B4DAD43AD4791EA40BF5 /* test-audio.wav */; };
+		F2045BE34AE0BCA4CA9F04DC /* LibraryViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA674D31E777A2153943B8C /* LibraryViews.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8A66F2C7C9231BBD47696AC8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1211E437E9F8EBBA5606E70F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 62BF0A12994A3C7014579610;
+			remoteInfo = IMSLPMusicMac;
+		};
+		FE5709BBA3404C1DC19CFC2E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1211E437E9F8EBBA5606E70F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA4A2CDB7E46E33652EB5986;
+			remoteInfo = IMSLPMusicMobile;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		16A0C7CD2EE3A53F8C7C0004 /* PlayerViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerViews.swift; sourceTree = "<group>"; };
+		18113F43257028EC476D8BDD /* IMSLPMusicMac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IMSLPMusicMac.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2478916C217E01CE4F59B944 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		25E904208D49724EDFEA2243 /* IMSLPClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IMSLPClient.swift; sourceTree = "<group>"; };
+		290F401372759070D3E14331 /* bach-work.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "bach-work.json"; sourceTree = "<group>"; };
+		312E7E88E8A75996653A54B5 /* bach-rendered.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "bach-rendered.json"; sourceTree = "<group>"; };
+		31965F96F2E9C5CD85F58E29 /* WikiParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WikiParser.swift; sourceTree = "<group>"; };
+		396B282D883469540AE94486 /* mozart-rendered.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "mozart-rendered.json"; sourceTree = "<group>"; };
+		5FADA4D88905E19B6377976A /* LICENSE.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+		71BBD06DE7F6C48E66CEFCA9 /* MusicE2ETests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicE2ETests.swift; sourceTree = "<group>"; };
+		7CA674D31E777A2153943B8C /* LibraryViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryViews.swift; sourceTree = "<group>"; };
+		86EC4CE707944FD0E1B98794 /* IMSLPMusicMobile.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = IMSLPMusicMobile.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		89CED65A2738177F38F2E2D6 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		8B23B4DAD43AD4791EA40BF5 /* test-audio.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "test-audio.wav"; sourceTree = "<group>"; };
+		B205ABCEAE8D0C718193890B /* MusicMacE2E.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MusicMacE2E.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB80FAEEC3021A0F9267DBC2 /* IMSLPMusicApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IMSLPMusicApp.swift; sourceTree = "<group>"; };
+		C3625DB9A54B1A46C3BDE2B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D20CBFE71F835187167A6345 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		DA6DC50D083C893DC6F36E14 /* CatalogViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogViews.swift; sourceTree = "<group>"; };
+		E52BEE7A8E5DD297919DC037 /* MusicStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicStore.swift; sourceTree = "<group>"; };
+		E70B6C4799135143D960B836 /* MusicMobileE2E.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = MusicMobileE2E.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA92C76DDFE0996D881E86EA /* mozart-work.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "mozart-work.json"; sourceTree = "<group>"; };
+		F546895C9BC47D782B19A206 /* Design.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Design.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04FB50A7090EDCF1DFECC0B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				430265D6C0DA2E80334F9BAB /* AVFoundation.framework in Frameworks */,
+				43D42AA8A366AC76492ACF24 /* MediaPlayer.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		144BAA21B2F61D1D97173488 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30C81BA3AA80183604E470F6 /* AVFoundation.framework in Frameworks */,
+				CB193EBBFB6B57A53BD7EAF0 /* MediaPlayer.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		306EC52253A0822908F965DC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18113F43257028EC476D8BDD /* IMSLPMusicMac.app */,
+				86EC4CE707944FD0E1B98794 /* IMSLPMusicMobile.app */,
+				B205ABCEAE8D0C718193890B /* MusicMacE2E.xctest */,
+				E70B6C4799135143D960B836 /* MusicMobileE2E.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3A83A8BB053778061D12CDF7 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				25E904208D49724EDFEA2243 /* IMSLPClient.swift */,
+				D20CBFE71F835187167A6345 /* Models.swift */,
+				E52BEE7A8E5DD297919DC037 /* MusicStore.swift */,
+				31965F96F2E9C5CD85F58E29 /* WikiParser.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		3B98A1CBF62F84B0C85BF7E7 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				BB80FAEEC3021A0F9267DBC2 /* IMSLPMusicApp.swift */,
+				3A83A8BB053778061D12CDF7 /* Core */,
+				4FEF3F99968F9F7FEEFD58D2 /* Resources */,
+				FA2231EF4CD2D9F82E904E13 /* UI */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		4FEF3F99968F9F7FEEFD58D2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C3625DB9A54B1A46C3BDE2B6 /* Assets.xcassets */,
+				312E7E88E8A75996653A54B5 /* bach-rendered.json */,
+				290F401372759070D3E14331 /* bach-work.json */,
+				5FADA4D88905E19B6377976A /* LICENSE.txt */,
+				396B282D883469540AE94486 /* mozart-rendered.json */,
+				EA92C76DDFE0996D881E86EA /* mozart-work.json */,
+				8B23B4DAD43AD4791EA40BF5 /* test-audio.wav */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A4D50715F8E11EB420069C53 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				89CED65A2738177F38F2E2D6 /* AVFoundation.framework */,
+				2478916C217E01CE4F59B944 /* MediaPlayer.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DEF1FFD912E3B0FBED2637C2 = {
+			isa = PBXGroup;
+			children = (
+				3B98A1CBF62F84B0C85BF7E7 /* Sources */,
+				EAB39EE682C225D04977B1FA /* Tests */,
+				A4D50715F8E11EB420069C53 /* Frameworks */,
+				306EC52253A0822908F965DC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EAB39EE682C225D04977B1FA /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				71BBD06DE7F6C48E66CEFCA9 /* MusicE2ETests.swift */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		FA2231EF4CD2D9F82E904E13 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				DA6DC50D083C893DC6F36E14 /* CatalogViews.swift */,
+				F546895C9BC47D782B19A206 /* Design.swift */,
+				7CA674D31E777A2153943B8C /* LibraryViews.swift */,
+				16A0C7CD2EE3A53F8C7C0004 /* PlayerViews.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		62BF0A12994A3C7014579610 /* IMSLPMusicMac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3410CD714A88E9C0E9B3896D /* Build configuration list for PBXNativeTarget "IMSLPMusicMac" */;
+			buildPhases = (
+				1DE7579EA88A79FC0B12A8A5 /* Sources */,
+				30161288706FB6906CA75A0A /* Resources */,
+				04FB50A7090EDCF1DFECC0B7 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IMSLPMusicMac;
+			packageProductDependencies = (
+			);
+			productName = IMSLPMusicMac;
+			productReference = 18113F43257028EC476D8BDD /* IMSLPMusicMac.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9E55269AF496BDD70B8A836A /* MusicMobileE2E */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CD72408F2C84764568C7E62 /* Build configuration list for PBXNativeTarget "MusicMobileE2E" */;
+			buildPhases = (
+				E0B8BB9DD352A3FF78E08497 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D469DA6EAA25905CF6C254DC /* PBXTargetDependency */,
+			);
+			name = MusicMobileE2E;
+			packageProductDependencies = (
+			);
+			productName = MusicMobileE2E;
+			productReference = E70B6C4799135143D960B836 /* MusicMobileE2E.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		B619E14B0E01654CF1CA90A7 /* MusicMacE2E */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A739B891282A7F68DE903C87 /* Build configuration list for PBXNativeTarget "MusicMacE2E" */;
+			buildPhases = (
+				321C6042F5AB45D0C4470428 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				922A598D4750F5547DC7A2C9 /* PBXTargetDependency */,
+			);
+			name = MusicMacE2E;
+			packageProductDependencies = (
+			);
+			productName = MusicMacE2E;
+			productReference = B205ABCEAE8D0C718193890B /* MusicMacE2E.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		DA4A2CDB7E46E33652EB5986 /* IMSLPMusicMobile */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B35C71DE4FF3260579DD896 /* Build configuration list for PBXNativeTarget "IMSLPMusicMobile" */;
+			buildPhases = (
+				24511EB18AF017EB526F4C5E /* Sources */,
+				461B9C03847C6B795E6A4E11 /* Resources */,
+				144BAA21B2F61D1D97173488 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IMSLPMusicMobile;
+			packageProductDependencies = (
+			);
+			productName = IMSLPMusicMobile;
+			productReference = 86EC4CE707944FD0E1B98794 /* IMSLPMusicMobile.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1211E437E9F8EBBA5606E70F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					62BF0A12994A3C7014579610 = {
+						ProvisioningStyle = Automatic;
+					};
+					9E55269AF496BDD70B8A836A = {
+						ProvisioningStyle = Automatic;
+						TestTargetID = DA4A2CDB7E46E33652EB5986;
+					};
+					B619E14B0E01654CF1CA90A7 = {
+						ProvisioningStyle = Automatic;
+						TestTargetID = 62BF0A12994A3C7014579610;
+					};
+					DA4A2CDB7E46E33652EB5986 = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 411A81EFE3C518733C44CC03 /* Build configuration list for PBXProject "IMSLPMusic" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = DEF1FFD912E3B0FBED2637C2;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 306EC52253A0822908F965DC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				62BF0A12994A3C7014579610 /* IMSLPMusicMac */,
+				DA4A2CDB7E46E33652EB5986 /* IMSLPMusicMobile */,
+				B619E14B0E01654CF1CA90A7 /* MusicMacE2E */,
+				9E55269AF496BDD70B8A836A /* MusicMobileE2E */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		30161288706FB6906CA75A0A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B13322B1E813411C5850C468 /* Assets.xcassets in Resources */,
+				868920990BE0139589B37762 /* LICENSE.txt in Resources */,
+				B2115C55BB46CC22946305DB /* bach-rendered.json in Resources */,
+				35ADE6F50DBA220FB1C2F7CD /* bach-work.json in Resources */,
+				CD49DD35826BC8707816C242 /* mozart-rendered.json in Resources */,
+				4A63CFDE7D4EEFE6228473B6 /* mozart-work.json in Resources */,
+				F1B36BF08E9652943B5FFF0F /* test-audio.wav in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		461B9C03847C6B795E6A4E11 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECA3D429B5027C8576FB1B91 /* Assets.xcassets in Resources */,
+				52ABD1E09322034F8465EBA8 /* LICENSE.txt in Resources */,
+				3AFEE196EEA8F956D8A29275 /* bach-rendered.json in Resources */,
+				C2E37144A74AD74788A84A7B /* bach-work.json in Resources */,
+				AC35BD3F95D51D4D29C95A62 /* mozart-rendered.json in Resources */,
+				A822141FC0BB3D45F3AD6F4A /* mozart-work.json in Resources */,
+				33137F719AA4419CFD50443B /* test-audio.wav in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1DE7579EA88A79FC0B12A8A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14092666950564F371345257 /* CatalogViews.swift in Sources */,
+				4A73713FA2194CCE41F8EBD9 /* Design.swift in Sources */,
+				0BF2074D94B7D816ABE8CAE8 /* IMSLPClient.swift in Sources */,
+				D4825C12486889661E7989B1 /* IMSLPMusicApp.swift in Sources */,
+				F2045BE34AE0BCA4CA9F04DC /* LibraryViews.swift in Sources */,
+				DF50E524564AF954023B8CD6 /* Models.swift in Sources */,
+				3CDC2A5CF5FF4943CA4DA8D9 /* MusicStore.swift in Sources */,
+				18F22BC95D3E725E90B070C3 /* PlayerViews.swift in Sources */,
+				74AAF66FBE157171EA57A2AE /* WikiParser.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24511EB18AF017EB526F4C5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44C16ACEFFDF45C5C744A0FC /* CatalogViews.swift in Sources */,
+				375B0F07313250008A6C7062 /* Design.swift in Sources */,
+				A97988F93026AC8AC6EF3234 /* IMSLPClient.swift in Sources */,
+				5892317A8E145800392A1D5C /* IMSLPMusicApp.swift in Sources */,
+				23843954323A0736E6A76DDB /* LibraryViews.swift in Sources */,
+				6445FFF2F1B6CBCA705ACB87 /* Models.swift in Sources */,
+				948D1433821573F70CA9892A /* MusicStore.swift in Sources */,
+				B11B4A9606A7BB568C89D95E /* PlayerViews.swift in Sources */,
+				AC123022B1CDEE2E599BD5C7 /* WikiParser.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		321C6042F5AB45D0C4470428 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A48A3D7C8D6965CE34A393B /* MusicE2ETests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0B8BB9DD352A3FF78E08497 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87B03754B1E05B38FC82E489 /* MusicE2ETests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		922A598D4750F5547DC7A2C9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 62BF0A12994A3C7014579610 /* IMSLPMusicMac */;
+			targetProxy = 8A66F2C7C9231BBD47696AC8 /* PBXContainerItemProxy */;
+		};
+		D469DA6EAA25905CF6C254DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DA4A2CDB7E46E33652EB5986 /* IMSLPMusicMobile */;
+			targetProxy = FE5709BBA3404C1DC19CFC2E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0CAE448531A1A76E578F1823 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.imslpmusic.mobile.tests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = IMSLPMusicMobile;
+			};
+			name = Release;
+		};
+		2E3F878272E480B0D39A16FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_OUTGOING_NETWORK_CONNECTIONS = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.music";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.imslpmusic.mac;
+				PRODUCT_NAME = "IMSLP Music";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		4CF0159816DB55E87E9D7BC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.imslpmusic.mac.tests;
+				SDKROOT = macosx;
+				TEST_TARGET_NAME = IMSLPMusicMac;
+			};
+			name = Release;
+		};
+		581C1417665210B0F1CCE37D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				EXCLUDED_SOURCE_FILE_NAMES = "bach-work.json bach-rendered.json mozart-work.json mozart-rendered.json test-audio.wav";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "IMSLP Music";
+				INFOPLIST_KEY_NSAppTransportSecurity_NSAllowsArbitraryLoads = NO;
+				INFOPLIST_KEY_NSAppTransportSecurity_NSAllowsLocalNetworking = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_STRICT_CONCURRENCY = targeted;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		82C669FD47C59F1A52C4866D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.imslpmusic.mobile.tests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = IMSLPMusicMobile;
+			};
+			name = Debug;
+		};
+		93145B367C6C1EA31772BAF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "Config/Mobile-Info.plist";
+				INFOPLIST_KEY_UIBackgroundModes = (
+					audio,
+				);
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.imslpmusic.mobile;
+				PRODUCT_NAME = "IMSLP Music";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AEBC6E8ECD2604C864E7442C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "IMSLP Music";
+				INFOPLIST_KEY_NSAppTransportSecurity_NSAllowsArbitraryLoads = NO;
+				INFOPLIST_KEY_NSAppTransportSecurity_NSAllowsLocalNetworking = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_STRICT_CONCURRENCY = targeted;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		E3ACA17B93A7EC695A32E236 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_OUTGOING_NETWORK_CONNECTIONS = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.music";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.imslpmusic.mac;
+				PRODUCT_NAME = "IMSLP Music";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		FC1146F1F4242874EF63614E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "Config/Mobile-Info.plist";
+				INFOPLIST_KEY_UIBackgroundModes = (
+					audio,
+				);
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.imslpmusic.mobile;
+				PRODUCT_NAME = "IMSLP Music";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FC76A8FF4400F0494573D1DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.imslpmusic.mac.tests;
+				SDKROOT = macosx;
+				TEST_TARGET_NAME = IMSLPMusicMac;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3410CD714A88E9C0E9B3896D /* Build configuration list for PBXNativeTarget "IMSLPMusicMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E3F878272E480B0D39A16FE /* Debug */,
+				E3ACA17B93A7EC695A32E236 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		411A81EFE3C518733C44CC03 /* Build configuration list for PBXProject "IMSLPMusic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEBC6E8ECD2604C864E7442C /* Debug */,
+				581C1417665210B0F1CCE37D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		4CD72408F2C84764568C7E62 /* Build configuration list for PBXNativeTarget "MusicMobileE2E" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82C669FD47C59F1A52C4866D /* Debug */,
+				0CAE448531A1A76E578F1823 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		7B35C71DE4FF3260579DD896 /* Build configuration list for PBXNativeTarget "IMSLPMusicMobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC1146F1F4242874EF63614E /* Debug */,
+				93145B367C6C1EA31772BAF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		A739B891282A7F68DE903C87 /* Build configuration list for PBXNativeTarget "MusicMacE2E" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC76A8FF4400F0494573D1DB /* Debug */,
+				4CF0159816DB55E87E9D7BC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1211E437E9F8EBBA5606E70F /* Project object */;
+}

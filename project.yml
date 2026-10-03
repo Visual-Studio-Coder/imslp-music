@@ -1,0 +1,91 @@
+name: IMSLPMusic
+options:
+  bundleIdPrefix: org.imslpmusic
+  deploymentTarget:
+    macOS: '15.0'
+    iOS: '18.0'
+settings:
+  configs:
+    Release:
+      EXCLUDED_SOURCE_FILE_NAMES: 'bach-work.json bach-rendered.json mozart-work.json mozart-rendered.json test-audio.wav'
+  base:
+    SWIFT_VERSION: '5.0'
+    GENERATE_INFOPLIST_FILE: YES
+    INFOPLIST_KEY_CFBundleDisplayName: IMSLP Music
+    MARKETING_VERSION: '1.0'
+    CURRENT_PROJECT_VERSION: '1'
+    ENABLE_USER_SCRIPT_SANDBOXING: YES
+    ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+    CODE_SIGN_STYLE: Automatic
+    SWIFT_STRICT_CONCURRENCY: targeted
+    INFOPLIST_KEY_NSAppTransportSecurity_NSAllowsLocalNetworking: YES
+    INFOPLIST_KEY_NSAppTransportSecurity_NSAllowsArbitraryLoads: NO
+targets:
+  IMSLPMusicMac:
+    type: application
+    platform: macOS
+    sources: [Sources]
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: org.imslpmusic.mac
+        PRODUCT_NAME: IMSLP Music
+        INFOPLIST_KEY_LSApplicationCategoryType: public.app-category.music
+        ENABLE_APP_SANDBOX: YES
+        ENABLE_OUTGOING_NETWORK_CONNECTIONS: YES
+        CODE_SIGN_IDENTITY: '-'
+    dependencies:
+      - sdk: AVFoundation.framework
+      - sdk: MediaPlayer.framework
+  IMSLPMusicMobile:
+    info:
+      path: Config/Mobile-Info.plist
+      properties:
+        UIBackgroundModes: [audio]
+        UILaunchScreen: {}
+    type: application
+    platform: iOS
+    sources: [Sources]
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: org.imslpmusic.mobile
+        PRODUCT_NAME: IMSLP Music
+        TARGETED_DEVICE_FAMILY: '1,2'
+        INFOPLIST_KEY_UIBackgroundModes: [audio]
+        INFOPLIST_KEY_UILaunchScreen_Generation: YES
+        INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone: UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight
+        INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad: UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight
+    dependencies:
+      - sdk: AVFoundation.framework
+      - sdk: MediaPlayer.framework
+  MusicMacE2E:
+    type: bundle.ui-testing
+    platform: macOS
+    sources: [Tests/MusicE2ETests.swift]
+    dependencies:
+      - target: IMSLPMusicMac
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: org.imslpmusic.mac.tests
+        CODE_SIGN_IDENTITY: '-'
+  MusicMobileE2E:
+    type: bundle.ui-testing
+    platform: iOS
+    sources: [Tests/MusicE2ETests.swift]
+    dependencies:
+      - target: IMSLPMusicMobile
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: org.imslpmusic.mobile.tests
+schemes:
+  IMSLPMusicMac:
+    build:
+      targets:
+        IMSLPMusicMac: all
+    test:
+      targets: [MusicMacE2E]
+  IMSLPMusicMobile:
+    build:
+      targets:
+        IMSLPMusicMobile: all
+    test:
+      targets: [MusicMobileE2E]
